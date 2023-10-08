@@ -39,3 +39,6 @@ file_content += new_function
 repo.update_file(file_path, commit_message, file_content, repo.get_contents(file_path).sha, branch="main")
 def new_function1():
     print("1");
+
+def new_function2():
+    print("1");
