@@ -43,3 +43,6 @@ def new_function1():
 
 def new_function2():
     print("1");
+
+def new_function3():
+    print("1");
