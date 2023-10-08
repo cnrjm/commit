@@ -40,3 +40,6 @@ repo.update_file(file_path, commit_message, file_content, repo.get_contents(file
 
 def new_function1():
     print("1");
+
+def new_function2():
+    print("1");
