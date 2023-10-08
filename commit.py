@@ -33,3 +33,5 @@ file_content += new_function
 
 # Commit changes
 repo.update_file(file_path, commit_message, file_content, repo.get_contents(file_path).sha, branch="main")
+def new_function():
+    print("hello world");
